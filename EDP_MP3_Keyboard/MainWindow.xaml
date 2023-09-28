@@ -5,13 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EDP_MP3_Keyboard"
         mc:Ignorable="d"
-        Title="MainWindow" Height="712" Width="1123" KeyDown="Window_KeyDown">
+        Title="MainWindow" Height="776" Width="1030" KeyDown="Window_KeyDown">
     <Grid x:Name="keyBoard">
-        
-        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="50" Margin="100,400,0,0" VerticalAlignment="Top" Width="50"/>
+        <TextBlock x:Name="label_userInput" Background="LightCyan" HorizontalAlignment="Left" Margin="64,298,0,0" TextWrapping="Wrap" Width="902" Foreground="Black" Height="30" VerticalAlignment="Top"/>
+
+        <!--<Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="50" Margin="100,400,0,0" VerticalAlignment="Top" Width="50"/>
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="50" Margin="100,455,0,0" VerticalAlignment="Top" Width="50"/>
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="50" Margin="155,400,0,0" VerticalAlignment="Top" Width="50"/>
-        <TextBlock x:Name="label_userInput" HorizontalAlignment="Left" Margin="115,10,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="727" Height="235"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="50" Margin="100,510,0,0" VerticalAlignment="Top" Width="50"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="50" Margin="100,565,0,0" VerticalAlignment="Top" Width="50"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="50" Margin="100,620,0,0" VerticalAlignment="Top" Width="50"/>-->
 
 
 
